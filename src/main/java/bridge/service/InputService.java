@@ -1,9 +1,10 @@
 package bridge.service;
 
-import bridge.*;
+import bridge.BridgeMaker;
+import bridge.BridgeNumberGenerator;
+import bridge.BridgeRandomNumberGenerator;
 import bridge.domain.Bridge;
 import bridge.domain.BridgeGame;
-import bridge.BridgeMaker;
 
 import java.util.List;
 import java.util.function.Consumer;

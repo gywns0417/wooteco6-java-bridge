@@ -5,13 +5,12 @@ import bridge.observer.Observer;
 import bridge.observer.Subject;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import static bridge.config.AnswerSetting.ANSWER_CORRECT;
 import static bridge.config.AnswerSetting.ANSWER_INCORRECT;
-import static bridge.config.KeySetting.*;
+import static bridge.config.KeySetting.KEY_DOWN;
+import static bridge.config.KeySetting.KEY_UP;
 
 /**
  * 다리 건너기 게임을 관리하는 클래스
